@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    tools:context=".DuaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image1"
+        android:src="@drawable/gmail"
+        android:onClick="OpenGmail"
+        android:layout_marginTop="150dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image2"
+        android:src="@drawable/whatsapp"
+        android:onClick="OpenWhatsapp"
+        android:layout_marginTop="9dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image3"
+        android:src="@drawable/instagram"
+        android:onClick="OpenInstagram"
+        android:layout_marginTop="9dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/image4"
+        android:src="@drawable/facebook"
+        android:onClick="OpenFacebook"
+        android:layout_marginTop="9dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="right"
+        android:textSize="20sp"
+        android:text="Silahkan Klik Gambar Di Samping,Maka Akan Terhubung ke Email dan Sosial Media Saya"
+        android:layout_marginTop="-480dp"
+        android:textColor="#000000" />
+
+
+
+</LinearLayout>
