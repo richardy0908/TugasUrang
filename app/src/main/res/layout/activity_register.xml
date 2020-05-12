@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/colorPrimary"
+    android:background="@android:color/holo_green_light"
     android:fitsSystemWindows="true"
     tools:context=".RegisterActivity">
 
@@ -79,7 +79,7 @@
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
             android:layout_weight="1"
-            android:background="@color/colorAccent"
+            android:background="@android:color/holo_blue_bright"
             android:text="@string/register" />
 
         <TextView

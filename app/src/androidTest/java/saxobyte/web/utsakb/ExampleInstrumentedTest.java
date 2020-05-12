@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("saxobyte.web.utsakb", appContext.getPackageName());
+        assertEquals("RichardHalim.web.utsakb", appContext.getPackageName());
     }
 }

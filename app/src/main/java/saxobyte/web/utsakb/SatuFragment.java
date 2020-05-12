@@ -9,8 +9,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
-//Tanggal Pembuatan : 19 Mei 2019
-
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 
 public class SatuFragment extends Fragment {
 
@@ -24,7 +28,7 @@ public class SatuFragment extends Fragment {
                              Bundle savedInstanceState) {
         View viewFrag1 = inflater.inflate(R.layout.fragment_satu, container, false);
         ImageView image = (ImageView)viewFrag1.findViewById(R.id.image);
-        image.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.aing, null));
+        image.setImageDrawable(ResourcesCompat.getDrawable(getResources(),R.drawable.richard, null));
         return viewFrag1;
             }
 

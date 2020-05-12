@@ -11,7 +11,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 public class LoginActivity extends AppCompatActivity {
 
     //Declaration EditTexts

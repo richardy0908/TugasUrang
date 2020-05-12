@@ -11,10 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".activity_home" />
-        <activity android:name=".MainActivity">
+        <activity android:name="saxobyte.web.utsakb.RegisterActivity"></activity>
+        <activity android:name="saxobyte.web.utsakb.LoginActivity" />
+        <activity android:name="saxobyte.web.utsakb.activity_home" />
+        <activity android:name="saxobyte.web.utsakb.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

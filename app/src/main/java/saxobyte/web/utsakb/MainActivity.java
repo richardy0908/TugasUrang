@@ -5,8 +5,12 @@ import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-//Tanggal Pembuatan : 18 Mei 2019
-
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 public class MainActivity extends AppCompatActivity {
 
     private int waktu_loading=3000;

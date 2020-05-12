@@ -7,12 +7,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-//Tanggal Pembuatan : 19 Mei 2019
-
-
 /**
- * A simple {@link Fragment} subclass.
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
  */
+
 public class DuaFragment extends Fragment {
 
 

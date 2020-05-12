@@ -11,8 +11,12 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-//Tanggal Pembuatan : 19 Mei 2019
-
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 
 /**
  * A simple {@link Fragment} subclass.

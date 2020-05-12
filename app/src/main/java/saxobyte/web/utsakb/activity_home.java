@@ -9,7 +9,12 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
-//Tanggal Pembuatan : 18 Mei 2019
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 
 public class activity_home extends AppCompatActivity {
     Toolbar mToolbar;
@@ -23,7 +28,7 @@ public class activity_home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         mToolbar = findViewById(R.id.main_toolbar);
         setSupportActionBar(mToolbar);
-        getSupportActionBar().setSubtitle("Created by: Rey");
+        getSupportActionBar().setSubtitle("Created by: Richard");
         mViewPager = findViewById(R.id.main_viewpager);
         mAdapter = new TabPageAdapter(getSupportFragmentManager());
         mViewPager.setAdapter(mAdapter);
@@ -32,28 +37,28 @@ public class activity_home extends AppCompatActivity {
     }
 
     public void OpenGmail (View view){
-        String url = "mailto:rheyfauzan@gmail.com";
+        String url = "mailto:richard.halim99@gmail.com";
         Intent bukaGmail = new Intent(Intent.ACTION_VIEW);
         bukaGmail.setData(Uri.parse(url));
         startActivity(bukaGmail);
     }
 
     public void OpenWhatsapp (View view){
-        String url = "https://api.whatsapp.com/send?phone=6281210622849";
+        String url = "https://api.whatsapp.com/send?phone=628239227339";
         Intent bukaWhatsapp = new Intent(Intent.ACTION_VIEW);
         bukaWhatsapp.setData(Uri.parse(url));
         startActivity(bukaWhatsapp);
     }
 
     public void OpenInstagram (View view){
-        String url = "https://www.instagram.com/rheyfauzan/";
+        String url = "https://www.instagram.com/richardyulio26/";
         Intent bukaInstagram = new Intent(Intent.ACTION_VIEW);
         bukaInstagram.setData(Uri.parse(url));
         startActivity(bukaInstagram);
     }
 
     public void OpenFacebook (View view){
-        String url = "https://m.facebook.com/reyhanfauzan.nugroho";
+        String url = "https://m.facebook.com/richard.yulio.halim";
         Intent bukaGmail = new Intent(Intent.ACTION_VIEW);
         bukaGmail.setData(Uri.parse(url));
         startActivity(bukaGmail);

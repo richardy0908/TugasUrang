@@ -4,8 +4,12 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-//Tanggal Pembuatan : 19 Mei 2019
-
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 public class TabPageAdapter extends FragmentPagerAdapter {
 
     public static int PAGE_COUNT = 3;

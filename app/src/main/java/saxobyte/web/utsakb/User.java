@@ -1,5 +1,10 @@
 package saxobyte.web.utsakb;
-
+/**
+ * Tanggal Pengerjaan : 12/05/2020
+ * NIM : 10117254
+ * Nama : Richard Yulio Halim
+ * Kelas : IF - 8
+ */
 public class User {
     public String id;
     public String userName;
